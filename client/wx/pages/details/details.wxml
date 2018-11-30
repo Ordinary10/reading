@@ -1,0 +1,104 @@
+<view class='img'>
+  <image src="{{mydata.cover}}"></image>
+</view>
+<view class='w'>
+  <view class='book-name'>
+    <view class='icon'>书生艺气</view>
+    <view class='name'>{{mydata.name}}</view>
+  </view>
+  <view class='gray'>{{mydata.description}}</view>
+  <view class='red'>￥{{mydata.prices}}</view>
+  <view class=' wuzhe gray'>
+    <text>5折</text>
+    <text class=' dingjia'>定价：</text>
+    <text class=' old-price'>￥42.00</text>
+  </view>
+  <view class='xianshiq'> 限时抢</view>
+</view>
+<view class='color'></view>
+
+<view class='shopping-box'>
+  <button class='btn1' bindtap='bb'>立即购买</button>
+  <button class='btn2' bindtap='bb'>加入购物车</button>
+</view>
+
+<view class='w box1'>
+  <view class='xianshiq red '> 加购价</view>
+</view>
+<view class='color'></view>
+<view class='w box1'>
+  <view class='gouman'>购满1件可优惠换购热销商品</view>
+  <view class='author-box'>
+    <view class='gray author'>作者:{{mydata.author}}</view>
+    <view class='gray author'>出版社:{{mydata.press}}</view>
+    <view class='gray author'>出版时间:{{mydata.press_time}} </view>
+  </view>
+</view>
+<view class='color'></view>
+
+<view class='big-box'>
+  <view class='duigou-big-box'>
+    <view class='duigou-box'>
+      <image class='duigou duigou-item' src='../imgs/details/duigou.jpg'></image>
+      <view class='duigou-item'>礼品包装</view>
+    </view>
+    <view class='duigou-box'>
+      <image class='duigou duigou-item' src='../imgs/details/duigou.jpg'></image>
+      <view class='duigou-item'>正品保障</view>
+    </view>
+    <view class='duigou-box'>
+      <image class='duigou duigou-item' src='../imgs/details/duigou.jpg'></image>
+      <view class='duigou-item'>支持礼品卡</view>
+    </view>
+  </view>
+  <view class='duigou-big-box'>
+    <view class='duigou-box'>
+      <image class='duigou duigou-item' src='../imgs/details/duigou.jpg'></image>
+      <view class='duigou-item'>书生艺气发货&售后</view>
+    </view>
+    <view class='duigou-box'>
+      <image class='duigou duigou-item' src='../imgs/details/duigou.jpg'></image>
+      <view class='duigou-item'>支持7日无理由退货</view>
+    </view>
+  </view>
+</view>
+
+<view class='w'>
+  <view class='send'>
+    <view>书生艺气配送</view>
+  </view>
+  <view class='adress-box'>
+    <view class='adress'>成都>成都市>武侯区</view>
+    <view class='red adress'>09:15前下单，预计今天送达</view>
+    <view class='gray adress'>免运费</view>
+  </view>
+</view>
+<view class='color'></view>
+<view class='w num-box'>
+  <view>数量</view>
+  <view class='stepper'>
+    <text class='{{minusStatus}}' type='number' bindtap='bindMinus'>-</text>
+    <input bindinput='bindManual' value='{{num}}'></input>
+    <text bindtap='bindPlus'>+</text>
+  </view>
+</view>
+<view class='color'></view>
+
+<view class='w'>
+  <view>
+    <view class='details' style='color:red;'>图书详情</view>
+    <image class='details-img' src='{{mydata.image_details}}'></image>
+  </view>
+  <view class='every-detail'>
+    <view style='color:red;'>[内容简介]</view>
+    <view>{{mydata.content_introduction}}</view>
+  </view>
+  <view class='every-detail '>
+    <view style='color:red;'>[作者简介]</view>
+    <view>{{mydata.author_introduction}}</view>
+  </view>
+  <view class='every-detail'>
+    <view style='color:red;'>[免费在线读]</view>
+    <view>{{mydata.reading}}</view>
+  </view>
+</view>

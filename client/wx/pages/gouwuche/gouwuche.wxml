@@ -1,0 +1,19 @@
+<!--pages/gouwuche/gouwuche.wxml-->
+<image class='img' src='../imgs/gouwuche.png'></image>
+<view class='text'>您还没有添加商品到购物车，快去逛一逛</view>
+<button class='btn' bindtap='btn'>逛一逛</button> 
+<view class='more'>更多推荐</view>
+<view wx:for="{{books}}">
+  <view class='back'>
+    <view class='book' wx:for="{{item}}" wx:for-item="booked" >
+      <image src='{{booked.img}}'></image>
+      <view>
+        <view class='tit'>
+          {{booked.tit}}
+        </view>
+        <view class='price'>{{booked.price}}</view>
+        <view class='pinglun'>{{booked.pinglun}}</view>
+      </view>
+    </view>
+  </view>
+</view>

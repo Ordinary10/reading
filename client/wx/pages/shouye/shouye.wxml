@@ -1,0 +1,203 @@
+<!--pages/shouye/shouye.wxml-->
+<!-- 搜索框 -->
+<view class='searchs'>
+  <icon type='search'></icon>
+  <input type='text' class='search' placeholder="搜索商品" placeholder-style="font-size:30rpx;"></input>
+</view>
+<!-- 轮播图 -->
+<swiper class='lunbo' indicator-dots="true" indicator-color="rgba(128,128,128,0.5)" indicator-active-color="#FFFFFF" autoplay="true" interval="4000" circular="true">
+  <swiper-item>
+    <image src='http://img61.ddimg.cn/ddreader/dangebook/11yn30j10-750-315.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='http://img63.ddimg.cn/upload_img/00087/geq/750x315_djj_1119-1542619616.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='http://img60.ddimg.cn/upload_img/00778/a/jy750x315-1540899037.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='http://img55.ddimg.cn/9006170051584595.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='http://img58.ddimg.cn/9002800053559478.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='http://img62.ddimg.cn/topic_img/gys_04584/913dbcysnxl750x315.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='http://img60.ddimg.cn/upload_img/00087/hw/750x315_1115-1542358616.jpg'></image>
+  </swiper-item>
+</swiper>
+<!-- 小图标 -->
+<view class='nav'>
+  <navigator url='../paihangbang/pahangbang' class='bar'>
+    <image src='../imgs/sicon/1.png'></image>
+    <view>图书排行榜</view>
+  </navigator>
+  <navigator url='../paihangbang/pahangbang' class='bar'>
+    <image src='../imgs/sicon/2.png'></image>
+    <view>9.9包邮</view>
+  </navigator>
+  <navigator url='../paihangbang/pahangbang' class='bar'>
+    <image src='../imgs/sicon/3.png'></image>
+    <view>即刻秒杀</view>
+  </navigator>
+  <navigator url='../paihangbang/pahangbang' class='bar'>
+    <image src='../imgs/sicon/4.png'></image>
+    <view>今日促销</view>
+    </navigator>
+    <navigator url='../paihangbang/pahangbang' class='bar'>
+      <image src='../imgs/sicon/5.png'></image>
+      <view>拼团</view>
+    </navigator>
+    <navigator url='../paihangbang/pahangbang' class='bar'>
+      <image src='../imgs/sicon/6.png'></image>
+      <view>便宜好货</view>
+    </navigator>
+    <navigator url='../paihangbang/pahangbang' class='bar'>
+      <image src='../imgs/sicon/7.png'></image>
+      <view>领劵中心</view>
+    </navigator>
+    <navigator url='../paihangbang/pahangbang' class='bar'>
+      <image src='../imgs/sicon/8.png'></image>
+      <view>0元购物</view>
+    </navigator>
+    <navigator url='../paihangbang/pahangbang' class='bar'>
+      <image src='../imgs/sicon/9.png'></image>
+      <view>领打卡金</view>
+    </navigator>
+    <navigator url='../paihangbang/pahangbang' class='bar'>
+      <image src='../imgs/sicon/10.png'></image>
+      <view>砍价</view>
+    </navigator>
+</view>
+<!-- 模块 -->
+<view class='books'>
+  <view class='title'>新书热卖榜第1名~第3名</view>
+  <view class='bk-flex'>
+    <navigator class='book' url='../details/details?id=40'>
+      <image src='http://img3m9.ddimg.cn/64/33/25353469-1_l_6.jpg'></image>
+      <view class='tit'>犯罪心理3</view>
+      <view class='price'>￥32</view>
+    </navigator>
+    <navigator class='book' url='../details/details?id=47'>
+      <image src='http://img3m4.ddimg.cn/84/0/25308444-1_l_6.jpg'></image>
+      <view class='tit'>花间集</view>
+      <view class='price'>￥49</view>
+    </navigator>
+    <navigator class='book' url='../details/details?id=54'>
+      <image src='http://img3m7.ddimg.cn/71/26/25580087-1_l_2.jpg'></image>
+      <view class='tit'>温一壶月光下酒</view>
+      <view class='price'>￥35</view>
+    </navigator>
+  </view>
+</view>
+
+<view class='books' style='background-color:rgba(238,130,238,0.7);'>
+  <view class='title'>拼团</view>
+  <view class='bk-flex'>
+    <navigator class='book' url='../details/details?id=25'>
+      <image src='http://img3m7.ddimg.cn/11/8/24171257-1_l_5.jpg'></image>
+      <view class='tit'>浪花少年侦探团</view>
+      <view class='price'>￥24</view>
+    </navigator>
+    <navigator class='book' url='../details/details?id=78'>
+      <image src='http://img3m6.ddimg.cn/38/18/25180886-1_l_3.jpg'></image>
+      <view class='tit'>女生宿舍日常</view>
+      <view class='price'>￥36</view>
+    </navigator>
+    <navigator class='book' url='../details/details?id=30'>
+      <image src='http://img3m1.ddimg.cn/93/17/25288851-1_l_25.jpg'></image>
+      <view class='tit'>你坏</view>
+      <view class='price'>￥23</view>
+    </navigator>
+  </view>
+</view>
+
+<image class='guanggao' src='http://img63.ddimg.cn/upload_img/00478/0609/qn-0609-382-140.jpg'></image>
+
+<view class='books' style='background-color:#FFE4B5;'>
+  <view class='title'>即刻秒杀</view>
+  <view class='bk-flex'>
+    <navigator class='book' url='../details/details?id=168'>
+      <image src='http://img3m3.ddimg.cn/12/20/25185513-1_l_3.jpg'></image>
+      <view class='tit'>你在哪里？</view>
+      <view class='price'>￥27</view>
+    </navigator>
+    <navigator class='book' url='../details/details?id=172'>
+      <image src='http://img3m0.ddimg.cn/84/27/25239540-1_l_8.jpg'></image>
+      <view class='tit'>暗算</view>
+      <view class='price'>￥39</view>
+    </navigator>
+    <navigator class='book' url='../details/details?id=175'>
+      <image src='http://img3m5.ddimg.cn/75/21/25537125-1_l_2.jpg'></image>
+      <view class='tit'>彼岸花</view>
+      <view class='price'>￥37</view>
+    </navigator>
+  </view>
+</view>
+
+<view class='books' style='background-color:rgba(152,251,152,0.7);'>
+  <view class='title'>9.9包邮</view>
+  <view class='bk-flex'>
+    <navigator class='book' url='../details/details?id=176'>
+      <image src='http://img3m9.ddimg.cn/77/23/25295369-1_l_9.jpg'></image>
+      <view class='tit'>云边有个小卖部</view>
+      <view class='price'>￥21</view>
+    </navigator>
+    <navigator class='book' url='../details/details?id=180'>
+      <image src='http://img3m7.ddimg.cn/54/18/25575417-1_l_2.jpg'></image>
+      <view class='tit'>正午时踏进光焰</view>
+      <view class='price'>￥38</view>
+    </navigator>
+   <navigator class='book' url='../details/details?id=182'>
+      <image src='http://img3m3.ddimg.cn/96/7/25578033-1_l_1.jpg'></image>
+      <view class='tit'>时间杀手</view>
+      <view class='price'>￥34</view>
+    </navigator>
+  </view>
+</view>
+
+<image class='guanggao' src='http://img63.ddimg.cn/topic_img/gys_0014951/DK_AHZ_20180510_382_140.jpg'></image>
+
+<view class='books' style='background-color:rgba(65,105,225,0.5);'>
+  <view class='title'>童书畅销榜第1名~第3名</view>
+  <view class='bk-flex'>
+    <navigator class='book' url='../details/details?id=302'>
+      <image src='http://img3m9.ddimg.cn/65/34/25584239-1_l_2.jpg'></image>
+      <view class='tit'>东京喫茶店</view>
+      <view class='price'>￥36</view>
+    </navigator>
+   <navigator class='book' url='../details/details?id=303'>
+      <image src='http://img3m1.ddimg.cn/59/9/25237931-1_l_3.jpg'></image>
+      <view class='tit'>找点乐子</view>
+      <view class='price'>￥37</view>
+    </navigator>
+   <navigator class='book' url='../details/details?id=304'>
+      <image src='http://img3m1.ddimg.cn/53/6/23828561-1_l_3.jpg'></image>
+      <view class='tit'>瓦尔登湖</view>
+      <view class='price'>￥36</view>
+    </navigator>
+  </view>
+</view>
+
+<view class='books' style='background-color:rgba(240,230,140,0.8);'>
+  <view class='title'>童书新书榜第1名~第3名</view>
+  <view class='bk-flex'>
+    <navigator class='book' url='../details/details?id=15'>
+      <image src='http://img3m0.ddimg.cn/57/12/22572750-1_b_1.jpg'></image>
+      <view class='tit'>玉米</view>
+      <view class='price'>￥28</view>
+    </navigator>
+    <navigator class='book' url='../details/details?id=23'>
+      <image src='http://img3m1.ddimg.cn/37/34/25585201-1_l_2.jpg'></image>
+      <view class='tit'>禁断的魔术</view>
+      <view class='price'>￥38</view>
+    </navigator>
+    <navigator class='book' url='../details/details?id=22'>
+      <image src='http://img3m4.ddimg.cn/44/3/25185644-1_l_1.jpg'></image>
+      <view class='tit'>滴泪痣</view>
+      <view class='price'>￥45</view>
+    </navigator>
+  </view>
+</view>

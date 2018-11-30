@@ -1,0 +1,25 @@
+<!--pages/paihangbang/pahangbang.wxml-->
+<scroll-view class='scroll' scroll-x="true">
+  <view class='bang' bindtap='bangdan'>
+    <view class='{{num==1?"active":"bangdan"}}' data-num="1">新书热卖榜</view>
+    <view class='{{num==2?"active":"bangdan"}}' data-num="2">图书畅销榜</view>
+    <view class='{{num==3?"active":"bangdan"}}' data-num="3">童书新书榜</view>
+    <view class='{{num==4?"active":"bangdan"}}' data-num="4">童书畅销榜</view>
+    <view class='{{num==5?"active":"bangdan"}}' data-num="5">五星图书榜</view>
+    <view class='{{num==6?"active":"bangdan"}}' data-num="6">图书飙升榜</view>
+  </view>
+</scroll-view>
+
+<view class='all'>
+    <navigator class='detail' wx:for="{{mydata.data.bookinfors}}" url='../details/details?id={{item.id}}'>
+      <image class='img' src='{{item.cover}}'></image>
+      <view class='text'>
+        <view class='tit'>{{item.name}}</view>
+        <view class='dd' style='height: 40rpx;overflow: hidden;'>作者：{{item.author}}</view>
+        <view class='dd'>出版社：{{item.press}}</view>
+        <view class='dd'>出版时间：{{item.press_time}} </view>
+        <view class='price'>￥{{item.prices}}</view>
+        <view class='pinglun'>1419687条评论</view>
+    </view>
+    </navigator>
+</view>

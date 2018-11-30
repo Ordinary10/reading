@@ -1,0 +1,78 @@
+ .topbox{
+    width: 100%;
+    height: 200px;
+    background-color: #FA4071;
+    border-radius: 0 0 30rpx 30rpx
+ }
+ .toux{
+  width: 160rpx;
+  height: 160rpx;
+   border-radius: 100rpx;  
+   margin-left: 80rpx;
+   margin-top: 40rpx
+} 
+.denglu{
+   margin-left: 300rpx;
+   margin-top: -160rpx;
+   color: white;
+   font-size: 50rpx;
+   letter-spacing: 4rpx
+}
+.img1{
+    width: 80rpx;
+    height: 80rpx;
+}
+.top2box{
+   margin-top: 120rpx;
+   display: flex;
+}
+.item{
+   margin: auto;
+   font-size: 24rpx;
+   color: white
+}
+
+/* 代付款.....栏  */
+.daibox{
+width: 90%;
+height: 180rpx;
+display: flex;
+margin: 30rpx auto;
+border: solid 1px #FA4071;
+border-radius: 20px
+}
+.img-ex-box image{
+   width: 80rpx;
+   height: 60rpx;
+}
+.img-ex-box{
+margin: auto;
+font-size: 24rpx
+}
+ /* 拼团栏  */
+.pinbox image{
+   width: 80rpx;
+   height: 60rpx;
+}
+.pinboxf{
+   display: flex;
+   font-size: 24rpx;
+   border: solid 1px #FA4071;
+   border-radius: 20px;
+   width: 90%;
+   height: 180rpx;
+   margin: auto
+}
+  .pinbox{
+   margin: auto;
+} 
+/* 轮播图 */
+.img {
+   width: 100%;
+   height: 300rpx;
+}
+.lunbo{
+   margin-top: 20rpx;
+   margin-bottom: 40rpx;
+   height: 300rpx;
+}

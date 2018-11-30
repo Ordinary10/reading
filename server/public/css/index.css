@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,li,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+#release-box{
+    width: 500px;
+    margin: 50px auto;
+    background-color: #ddd;
+}
+#release-ul{
+    width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+#release-ul>li{
+    margin: 10px auto;
+}
+#release-ul>li>span{
+    display: inline-block;
+    width: 120px;
+    text-align:right; 
+    padding-right: 20px;
+}
+#release-ul>li>input,#release-ul>li>select{
+    width: 200px;
+    height: 30px;
+    outline: none;
+}
+#release{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    margin: auto;
+}
+#prompt{
+    color: green;
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 20px;
+}

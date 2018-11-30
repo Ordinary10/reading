@@ -1,0 +1,194 @@
+.img image{
+margin-left: 50rpx;
+height: 700rpx
+}
+.w{
+margin-left: 30rpx;
+}
+.book-name{
+   margin-bottom: 60rpx;
+}
+.icon{
+   background-color: #FF4433;
+   width: 18%;
+   text-align: center;
+   color: white;
+   font-size: 24rpx;
+   border-radius: 25rpx
+}
+.name {
+   margin-left: 160rpx;
+   margin-top: -40rpx;
+   /* overflow: hidden;
+   height: 60rpx;
+   line-height: 60rpx; */
+}
+
+.gray{
+   /* height: 80rpx; */
+   color: #646464;
+   font-size: 30rpx;
+   /* overflow: hidden; */
+}
+.red{
+   color: #FF4433;
+   margin-top: 20rpx;
+   margin-right: 40rpx;
+   display: inline-block;
+}
+.wuzhe{
+  display: inline-block;
+   margin:20rpx auto;
+}
+.old-price{
+   text-decoration: line-through;
+}
+.xianshiq{
+   border: solid 2rpx #FF4433;
+   width: 15%;
+   text-align: center;
+   margin-top: 40rpx;
+   font-size: 30rpx;
+    color: #FF4433;
+   margin-top: 20rpx;
+}
+.color{
+   width: 100%;
+   height: 20rpx;
+   margin-top: 30rpx;
+   background-color: rgb(253, 228, 233);
+   border-top: solid 2rpx F3F3F3
+}
+
+.box1{
+   margin-top: 20rpx;
+}
+.gouman {
+  margin-top: -115rpx;
+  margin-left: 170rpx;
+  font-size: 33rpx
+}
+.author-box{
+   margin-left: 150rpx;
+   margin-top: 70rpx
+}
+.author{
+   margin-top: 30rpx;
+}
+
+
+.big-box{
+  border-bottom: solid 2rpx #C3C3C3;
+  padding-bottom: 20rpx
+}
+.duigou-big-box{
+   display: flex;
+   margin-top: 40rpx;
+ 
+}
+.duigou-box{
+   margin: auto;
+   display: flex
+}
+.duigou-box view{
+   font-size: 30rpx;
+}
+.duigou{
+   width: 50rpx;
+   height: 50rpx;
+}
+.duigou-item{
+  margin-left: 10rpx 
+}
+
+.send{
+   padding-top: 30rpx
+}
+.adress-box{
+   display: flex;
+   flex-direction: column;
+   margin-left: 235rpx;
+   margin-top: -44rpx
+}
+.send view,.adress-box view{
+   font-size: 34rpx;
+}
+.adress{
+   margin: 4rpx 0 ;
+}
+
+/* 数量栏 */
+.num-box{
+   display: flex;
+   padding-top: 30rpx
+}
+/*主容器*/
+.stepper {
+  width:80px;
+  height:26px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+/*加号和减号*/
+.stepper text {
+  float: left;
+  width: 19px;
+  line-height: 26px;
+  text-align: center;
+}
+/*数值*/
+.stepper input {
+  width: 40px;
+  height: 26px;
+  float: left;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+/*普通样式*/
+.stepper .normal {
+  color:black;
+}
+/*禁用样式*/
+.stepper .disable {
+  color: #ccc;
+}
+
+
+
+.details{
+   text-align: center;
+   padding-top: 20rpx
+}
+.details-img{
+   width: 750rpx;
+   height: 4500rpx;
+}
+.every-detail{
+   margin-top: 40rpx;
+}
+
+/* 底部按钮 */
+ .shopping-box{
+    width: 100%;
+    position: fixed;
+    bottom: 0rpx;
+    display: flex;
+    background-color: #f5f5f5
+ }
+.shopping-box button{
+    width: 300rpx;
+    color: #fff;
+    border-radius: 70rpx;
+}
+.btn1{
+background-color: goldenrod;
+}
+.btn2{
+   background-color: #FF4433;
+}
+
+

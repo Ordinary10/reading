@@ -1,0 +1,122 @@
+/* pages/shouye/shouye.wxss */
+.lunbo {
+  width: 100%;
+  height: 400rpx;
+  position: relative;
+  z-index: 12;
+  margin-top: 70rpx;
+}
+
+.lunbo image {
+  width: 100%;
+  height: 400rpx;
+}
+
+.searchs {
+  width: 650rpx;
+  height: 60rpx;
+  background-color:	#D3D3D3;
+  position: fixed;
+  z-index: 999;
+  border-radius: 40rpx;
+  top:0;
+  left: 40rpx;
+}
+
+icon {
+  color: gray;
+  margin-left: 10rpx;
+}
+
+.search {
+  display: inline-block;
+  width:580rpx;
+  margin-left: 10rpx;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bar {
+  width: 120rpx;
+  height: 120rpx;
+  margin-left: 20rpx;
+  margin-top: 25rpx;
+}
+
+.bar image {
+  display: block;
+  width: 80rpx;
+  height: 80rpx;
+  margin: auto;
+}
+
+.bar view {
+  font-size: 22rpx;
+  width:120rpx;
+  height: 30rpx;
+  text-align: center;
+  line-height: 30rpx;
+  margin: auto;
+}
+
+.books {
+  background-color:rgba(250,128,114, 0.7);
+  height: 420rpx;
+  border-radius: 20rpx;
+  margin-bottom: 5rpx;
+}
+
+.title {
+  color: white;
+  font-size: 42rpx;
+  font-weight: bold;
+  margin-left: 20rpx;
+  padding-top: 10rpx;
+}
+
+.bk-flex {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.book {
+  width: 225rpx;
+  height: 300rpx;
+  background-color: white;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+}
+
+.book image {
+  display: block;
+  width: 200rpx;
+  height: 200rpx;
+  margin: 5rpx auto;
+}
+
+.tit {
+  font-size: 32rpx;
+  width: 200prx;
+  height: 40rpx;
+  margin-left: 10rpx;
+  overflow: hidden;
+}
+
+.price {
+  height: 40rpx;
+  color: red;
+  font-size: 28rpx;
+  font-weight: bold;
+  text-align: center;
+}
+
+.guanggao {
+  width: 100%;
+  height: 250rpx;
+}
+

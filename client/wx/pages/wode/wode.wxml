@@ -1,0 +1,80 @@
+<!-- 红色部分 -->
+<view class='topbox'>
+<image class='toux' src='../imgs/toux.jpg'></image>
+<navigator class='denglu'>登录/注册</navigator> 
+<!-- 图标开始 -->
+<view class='top2box'>
+<navigator class='item'>
+<image class='img1' src='../imgs/liquan.jpg'></image>
+<view >礼券/红包</view>
+</navigator>
+<navigator class='item'>
+<image class='img1' src='../imgs/foots.jpg'></image>
+<view >浏览历史</view>
+</navigator>
+<navigator class='item'>
+<image class='img1' src='../imgs/shouc.jpg'></image>
+<view >收藏商品</view>
+</navigator>
+<navigator class='item'>
+<image class='img1' src='../imgs/car.jpg'></image>
+<view >关注店铺</view>
+</navigator>
+<navigator class='item'>
+<image class='img1' src='../imgs/lijinka.jpg'></image>
+<view >打卡金</view>
+</navigator>
+</view>
+</view>
+<!-- 红色部分结束 -->
+
+<!-- 代付款.....栏 -->
+<view class='daibox'>
+<navigator class='img-ex-box'>
+<image src='../imgs/daifuk.jpg'></image>
+<view>待付款</view>
+</navigator>
+<navigator class='img-ex-box'>
+<image src='../imgs/daishou.jpg'></image>
+<view>待收货</view>
+</navigator>
+<navigator class='img-ex-box'> 
+<image src='../imgs/shouhou.jpg'></image>
+<view>退款/售后</view>
+</navigator>
+<navigator class='img-ex-box'>
+<image src='../imgs/orders.jpg'></image>
+<view>全部订单</view>
+</navigator>
+</view>
+<!-- 拼团栏 -->
+<view class='pinboxf'>
+<view class='pinbox'>
+<image src='../imgs/pintuan.jpg'></image>
+<view>拼团</view>
+</view>
+<view class='pinbox'>
+<image src='../imgs/applay.jpg'></image>
+<view>0元申请</view>
+</view>
+<view class='pinbox'>
+<image src='../imgs/suggestion.jpg'></image>
+<view>意见反馈</view>
+</view>
+<navigator class='pinbox' url='shujia/shujia'>
+<image src='../imgs/shujia.jpg'></image>
+<view > 电子书架</view>
+</navigator>
+</view>
+<!-- 轮播图 -->
+<swiper class='lunbo' autoplay='1000' circular='true'>
+   <swiper-item>
+      <image class='img' src='../imgs/lunbo1.jpg'></image>
+   </swiper-item>
+   <swiper-item>
+      <image class='img' src='../imgs/lunbo2.jpg'></image>
+   </swiper-item>
+   <swiper-item>
+      <image class='img' src='../imgs/lunbo3.jpg'></image>
+   </swiper-item>
+</swiper>

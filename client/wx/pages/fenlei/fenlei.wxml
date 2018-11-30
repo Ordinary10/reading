@@ -1,0 +1,71 @@
+<view class='searchs'>
+  <icon type='search'></icon>
+  <input type='text' class='search' placeholder="搜索商品" placeholder-style="font-size:30rpx;"></input>
+</view>
+
+<view class='big'>
+  <!-- 侧边导航栏：左 -->
+  <scroll-view class='scroll' scroll-y='true'>
+    <view class='navs' bindtap='nav_text'>
+      <view class='{{num==1?"active":"nav"}}' data-num="1">
+        热搜推荐
+      </view>
+      <view class='{{num==2?"active":"nav"}}' data-num="2">
+        小说
+      </view>
+      <view class='{{num==3?"active":"nav"}}' data-num="3">
+        文学
+      </view>
+      <view class='{{num==4?"active":"nav"}}' data-num="4">
+        动漫/幽默
+      </view>
+      <view class='{{num==5?"active":"nav"}}' data-num="5">
+        教材
+      </view>
+      <view class='{{num==6?"active":"nav"}}' data-num="6">
+        考研
+      </view>
+      <view class='{{num==7?"active":"nav"}}' data-num="7">
+        历史
+      </view>
+      <view class='{{num==8?"active":"nav"}}' data-num="8">
+        心理学
+      </view>
+      <view class='{{num==9?"active":"nav"}}' data-num="9">
+        经济/管理
+      </view>
+      <view class='{{num==10?"active":"nav"}}' data-num="10">
+        孕产/胎教
+      </view>
+      <view class='{{num==11?"active":"nav"}}' data-num="11">
+        保健/养生
+      </view>
+      <view class='{{num==12?"active":"nav"}}' data-num="12">
+        烹饪/美食
+      </view>
+      <view class='{{num==13?"active":"nav"}}' data-num="13">
+        饮食健康
+      </view>
+      <view class='{{num==14?"active":"nav"}}' data-num="14">
+        医学
+      </view>
+      <view class='{{num==15?"active":"nav"}}' data-num="15">
+        计算机/网络
+      </view>
+      <view class='{{num==16?"active":"nav"}}' data-num="16">
+        农业/林业
+      </view>
+    </view>
+  </scroll-view>
+  <!-- 侧边导航栏：右 -->
+  <scroll-view class='hots' scroll-y='true'>
+    <view class='read'>
+      <navigator class='hot' wx:for="{{mydata.data.bookinfors}}" url='../details/details?id={{item.id}}'>
+        <view class='everybox'>
+          <image class='img' src='{{item.cover}}'></image>
+          <view class='tit'>{{item.name}}</view>
+        </view>
+      </navigator>
+    </view>
+  </scroll-view>
+</view>

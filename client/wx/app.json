@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/shouye/shouye",
+    "pages/fenlei/fenlei",
+    "pages/gouwuche/gouwuche",
+    "pages/wode/wode",
+    "pages/wode/shujia/shujia",
+    "pages/paihangbang/pahangbang",
+    "pages/details/details"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/shouye/shouye",
+        "text": "首页",
+        "iconPath": "pages/imgs/tabbar/s.png",
+        "selectedIconPath": "pages/imgs/tabbar/sr.png"
+      },
+      {
+        "pagePath": "pages/fenlei/fenlei",
+        "text": "分类",
+        "iconPath": "pages/imgs/tabbar/f.png",
+        "selectedIconPath": "pages/imgs/tabbar/fr.png"
+      },
+      {
+        "pagePath": "pages/gouwuche/gouwuche",
+        "text": "购物车",
+        "iconPath": "pages/imgs/tabbar/g.png",
+        "selectedIconPath": "pages/imgs/tabbar/gr.png"
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "我的",
+        "iconPath": "pages/imgs/tabbar/w.png",
+        "selectedIconPath": "pages/imgs/tabbar/wr.png"
+      }
+    ]
+  }
+}

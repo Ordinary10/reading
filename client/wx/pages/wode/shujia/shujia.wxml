@@ -1,0 +1,8 @@
+<view class='big'>
+
+<navigator class='shujia' wx:for="{{mydata.data.bookinfors}}" url='../../details/details?id={{item.id}}'>
+<image class='shu' src='{{item.cover}}'></image>
+<view>{{item.name}}</view>
+</navigator> 
+
+</view>

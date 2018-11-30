@@ -1,0 +1,89 @@
+/* 搜索框 */
+.searchs {
+  width: 650rpx;
+  height: 60rpx;
+  background-color:rgba(211,211,211,0.5);
+  position: fixed;
+  z-index: 999;
+  border-radius: 40rpx;
+  top:0;
+  left: 40rpx;
+}
+
+icon {
+  color: gray;
+  margin-left: 10rpx;
+}
+
+.search {
+  display: inline-block;
+  width:580rpx;
+  margin-left: 10rpx;
+}
+/* 侧边导航栏：左 */
+.big {
+  width: 100%;
+  height: 1025rpx;
+  background-color:	#F5F5F5;
+   position: absolute;
+  top:80rpx;
+  left: 0;
+  z-index: 10;
+}
+
+.scroll {
+  width: 30%;
+  height: 1025rpx;
+  background-color: white;
+}
+
+.nav {
+  height: 150rpx;
+  text-align: center;
+  line-height: 150rpx;
+  font-size: 30rpx;
+}
+
+.active {
+    height: 150rpx;
+  text-align: center;
+  line-height: 150rpx;
+  font-size: 30rpx;
+  background-color: #F5F5F5;
+}
+/* 侧边导航栏：右 */
+.hots {
+  width: 515rpx;
+  height: 1025rpx;
+  position: absolute;
+  right: 0rpx;
+  top:10rpx;
+  background-color: white;
+}
+
+.read {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.everybox {
+  width: 160rpx;
+  height: 250rpx;
+  margin-top: 20rpx;
+}
+
+.img {
+  width:150rpx;
+  height: 150rpx;
+}
+
+.tit {
+  width: 160rpx;
+  height: 80rpx;
+  text-align: center;
+  font-size: 28rpx;
+  overflow: hidden;
+}
+
